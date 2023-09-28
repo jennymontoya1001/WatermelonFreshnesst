@@ -6,6 +6,7 @@
 
 :root{
     scroll-behavior: smooth;
+    ---color--morado:#000000;
 }
 
 body{
@@ -18,12 +19,13 @@ body{
     overflow: hidden;
     margin: auto;
     padding: 60px 0;
+    
 }
 
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(img/woman.jpg);
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(img/mermelada_sandía02.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -60,9 +62,9 @@ body{
     height: 100%;
     /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
     /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #f11e48 0%, #fbc2eb 100%);
     /* 028 */
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, #df2433 0%, #e391e4 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -97,7 +99,7 @@ body{
 /* Services */
 
 .subtitulo{
-    color: #9f8ad0;
+    color: red;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
@@ -106,8 +108,7 @@ body{
 
 .contenedor-servicio{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    text-align: left;
     flex-wrap: wrap;
 }
 
@@ -120,20 +121,22 @@ body{
 }
 
 .service{
+
     margin-bottom: 20px;
 }
 
 .n-service{
     margin-bottom: 7px;
-    color: #9f8ad0;
+    color: red;
 }
 
 .number{
+    text-align: center;
     display: inline-block;
     /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(135deg, #df2433 0%, #e391e4 100%);;
     line-height: 30px;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 50%;
     margin-right: 5px;
     width: 30px;
@@ -141,6 +144,128 @@ body{
     color: #fff;
     font-weight: 700;
 }
+
+section {
+    margin: 20px;
+    padding: 20px;
+   
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.quimica {
+    background-color: #ffffff;
+}
+.quimica h2 {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.img-quimica img {
+    max-width: 250px; /* Ajusta el tamaño deseado */
+    height: auto;
+    margin: 10px;
+    display: inline-block; /* Alinea las imágenes horizontalmente */
+}
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+/* .contenido-slider:nth-child(1){
+    background: #332863;
+    color: #fff;
+}
+
+.contenido-slider:nth-child(2){
+    background: #332863;
+    color: #fff;
+} */
+
+/* .contenido-slider:nth-child(3){
+    /* background: #611a68; */
+
+
+.contenido-slider > img{
+    width: 400px;
+}
+
+.contenido-slider > div{
+    width: 40%;
+}
+
+.contenido-slider h2{
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contenido-slider a{
+    color: #fff;
+    /* background: #332863; */
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contenido-slider:nth-child(2) a{
+    background: #fff;
+    /* color: #332863; */
+    
+}
+
+@media screen and (max-width:900px){
+    .contenido-slider > img{
+        width: 250px;
+    }
+
+    .contenido-slider > div{
+        width: 40%;
+    }
+
+    .contenido-slider h2{
+        font-size: 23px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .contenido-slider{
+       flex-direction: column-reverse;
+    }
+
+    .contenido-slider > div{
+        width: 80%;
+    }
+
+}
+
+
+
+
 
 .gallery{
     background: #f2f2f2;
@@ -151,6 +276,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 30px;
+   
+   
 }
 
 .img-galeria{
@@ -226,7 +353,7 @@ body{
 }
 
 footer{
-    background: #9f8ad0;
+    background: linear-gradient(135deg, #d91122 0%, #ee0a7c 100%);;
     padding-bottom: 0.1px;
 }
 
@@ -289,6 +416,117 @@ footer{
     background: #fff;
     color:#764ba2;
 }
+
+.title_calculos{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .title-modal{
+    color: red;
+  }
+  .tarjeta {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .tarjeta h3 {
+    margin-top: 10px;
+    color: rgb(16, 15, 15);
+  }
+  
+  .btn-modal {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #764ba2;
+    color: rgb(20, 19, 19);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.2s;
+  }
+  
+  .btn-modal:hover
+   {
+    background-color:#e391e4;
+    color: #ffffff;
+   }
+   .icon{
+    width: 50px;
+   }
+   .modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .modal-contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+  }
+  
+  .modal-imagen {
+    display: flex;
+    flex: 2;
+    text-align: left;
+  }
+  
+  .modal-imagen img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .modal-texto {
+    flex: 1;
+    text-align: right;
+  }
+  
+  
+  .btn-cerrar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#764ba2;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.2s
+  }
+  .btn-cerrar:hover
+  {
+   background-color:#ee0a7c;
+   color: #ffffff;
+  }
+  .imagen_1{
+    width: 100%;
+  }
 
 @media screen and (max-width: 800px){
     .menu-navegacion{

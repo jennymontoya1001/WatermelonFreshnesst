@@ -1,82 +1,281 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animación</title>
+    <title>Watermelon Freshnesst</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shotcut icon" href="img/jaja.png">
 </head>
+
 <body>
-    
+
     <header class="header" id="inicio">
         <img class="hamburguer" src="img/hamburguesa.svg" alt="">
         <nav class="menu-navegacion">
-                <a href="#inicio">Inicio</a>
-                <a href="#servicio">Servcio</a>
-                <a href="#galeria">Portafolio</a>
-                <a href="#expertos">Servicios</a>
-                <a href="#footer">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#quimica">Quimica</a>
+            <a href="#matematicas">Matematicas</a>
+            <a href="#galeria">sobre nosotros</a>
+            <a href="#expertos">Ingredientes</a>
+            <a href="#footer">Contacto</a>
         </nav>
         <div class="contenedor head">
-            <h1 class="titulo">Convertimos tus ideas en una realidad</h1>
-            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h1 class="titulo"><b>Watermelon Freshnesst</h1></b>
+            <p class="copy"><b>Endulza tu vida con una deliciosa mermelada</p></b>
         </div>
-        
+
     </header>
     <main>
         <section class="services contenedor" id="servicio">
-            <h2 class="subtitulo">Nuestro servicio</h2>
+            <h2 class="subtitulo"><b>Nuestro servicio</h2></b>
             <div class="contenedor-servicio">
-                <img src="img/checklist.svg" alt="">
+                <img src="img/jaja.png" alt=""></i>
                 <div class="checklist-servicio">
                     <div class="service">
-                        <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi. Aspernatur.</p>
+                        <h3 class="n-service"><span class="number">1</span>¿Qué es?</h3>
+                        <p>Una mermelada de sandía es una conserva dulce elaborada a partir de trozos de sandía cocida
+                            con azúcar, que se utiliza como acompañamiento o para untar en pan u otros alimentos.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi. Aspernatur.</p>
+                        <h3 class="n-service"><span class="number">2</span>¿Qué nos aporta?</h3>
+                        <p>La mermelada de sandía aporta dulzura y sabor frutal a las comidas, así como vitaminas y
+                            minerales, como la vitamina C y el potasio. También puede proporcionar energía debido a su
+                            contenido de azúcar, pero debe consumirse con moderación debido a su alto contenido
+                            calórico.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi. Aspernatur.</p>
+                        <h3 class="n-service"><span class="number">3</span>Nuestra Experiencia</h3>
+                        <p>La experiencia fue sumamente placentera, ya que colaboramos en equipo para crear una
+                            mermelada verdaderamente deliciosa. Durante todo el proceso, logramos ajustar tanto el sabor
+                            como la consistencia a nuestros deseos, y los resultados obtenidos en la elaboración de
+                            nuestro producto fueron notables. Disfrutamos enormemente de este proceso y estamos ansiosas
+                            por compartirlo contigo. ¡Esperamos que te encante el resultado final!</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="gallery" id="galeria">
+
+           <section class="quimica" id="quimica">
+            <h2><b>Química</h2></b>
+            <div class="img-quimica">
+                <img src="/img/tabla4.jpg" alt="Agua">
+                <img src="/img/tabla3.jpg" alt="Azúcar">
+                <img src="/img/tabla2.jpg" alt="Limón">
+                <img src="/img/tabla1.jpg" alt="Sandía">
+            </div>
+        </section>
+
+        
+        <section class="calculos_1" id="matematicas">
+            <h2 class="title_calculos" id="calculos"><b>Medidas y Precios</h2></b>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <img src="./img/icon (2).png" class="icon" alt="Imagen 1">
+                    <h3>Ingredientes</h3>
+                    <button class="btn-modal" data-target="modal1">Ver más</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="./img/calculadora.png" class="icon" alt="Imagen 2">
+                    <h3>Mano de obra</h3>
+                    <button class="btn-modal" data-target="modal2">Ver más</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="./img/icon (2).png" class="icon" alt="Imagen 3">
+                    <h3>servicios</h3>
+                    <button class="btn-modal" data-target="modal3">Ver más</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="./img/calculadora.png" class="icon" alt="Imagen 4">
+                    <h3>Otros</h3>
+                    <button class="btn-modal" data-target="modal4">Ver más</button>
+                </div>
+            </div>
+            <div class="ultm">
+                <div class="tarjeta">
+                    <img src="./img/icon (2).png" class="icon" alt="Imagen 4">
+                    <h3>Precio final</h3>
+                    <button class="btn-modal" data-target="modal5">Ver más</button>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="modal" id="modal1">
+                <div class="modal-contenido">
+                    <div class="modal-imagen">
+                        <img src="./img/ingredientes.jpg" alt="Imagen_1">
+                    </div>
+                    <div class="modal-texto">
+                        <h3 class="title-modal">Ingredientes</h3>
+                        <p><b>En esta tabla podemos observar lo que gastamos en los ingredientes.</p></b>
+                        <button class="btn-cerrar">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal2">
+                <div class="modal-contenido">
+                    <div class="modal-imagen">
+                        <img src="./img/salario.jpg" alt="Imagen 2">
+                    </div>
+                    <div class="modal-texto">
+                        <h3 class="title-modal">Mano de obra </h3>
+                        <p><b>Esta es la tabla con la proyeccion de nuestro salario</p></b>
+                        <button class="btn-cerrar">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal3">
+                <div class="modal-contenido">
+                    <div class="modal-imagen">
+                        <img src="./img/servicio.jpg" alt="Imagen 3">
+                    </div>
+                    <div class="modal-texto">
+                        <h3 class="title-modal">Servicios</h3>
+                        <p><b>Esta es la tabla con el contenido de gastos de los servicios</p></b>
+                        <button class="btn-cerrar">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal4">
+                <div class="modal-contenido">
+                    <div class="modal-imagen">
+                        <img src="./img/otros.jpg" alt="Imagen 4">
+                    </div>
+                    <div class="modal-texto">
+                        <h3 class="title-modal">Otros</h3>
+                        <p><b>Esta es la tabla con el precio final de nuestra venta</p></b>
+                        <button class="btn-cerrar">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="modal5">
+                <div class="modal-contenido">
+                    <div class="modal-imagen">
+                        <img src="./img/precio final.jpg" alt="Imagen 4">
+                    </div>
+                    <div class="modal-texto">
+                        <h3 class="title-modal">Precio final</h3>
+                        <p><b>Esta es la tabla con el precio final de nuestra venta</p></b>
+                        <button class="btn-cerrar">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="gallery" id="galeria">
             <div class="contenedor">
-                <h2 class="subtitulo">Galeria</h2>
+                <h2 class="subtitulo"><b>Sobre Nosotros</h2></b>
+                <p>Somos una empresa apasionada que se esfuerza por convertir cada momento en una experiencia
+                    inolvidable. Nos dedicamos a la creación de mermeladas de sandía de la más alta calidad, diseñadas
+                    para que nuestros clientes disfruten de cada cucharada.</p>
                 <div class="contenedor-galeria">
-                    <img src="img/uno.jpg" class="img-galeria" alt="Hola">
-                    <img src="img/dos.jpg" class="img-galeria" alt="">
-                    <img src="img/tres.jpg" class="img-galeria" alt="">
-                    <img src="img/cuatro.jpg" class="img-galeria" alt="">
-                    <img src="img/cinco.jpg" class="img-galeria" alt="">
-                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                    <img src="img/sara.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/zai y vane.jpg" class="img-galeria" alt="">
+                    <img src="img/otra vez.jpg" class="img-galeria" alt="">
+                    <img src="img/vg,ss.jpg" class="img-galeria" alt="">
+                    <img src="img/tarro.jpg" class="img-galeria" alt="">
+                    <img src="img/londoño.jpg" class="img-galeria" alt="">
                 </div>
             </div>
+        </section> -->
+
+        <section class="sobre nosotros" id="galeria">
+            <h2 class="subtitulo"><b>Sobre Nosotros</h2></b>
+            <p style="padding: 20px;">Somos unas estudiantes apasionada que se esfuerzan por convertir cada momento en
+                una experiencia
+                inolvidable. Nos dedicamos a la creación de mermeladas de sandía de la más alta calidad, diseñadas
+                para que nuestros clientes disfruten de cada cucharada.</p>
+
+            <div class="contenedor">
+
+                <div class="slider-contenedor">
+                    <section class="contenido-slider">
+                        <!-- <div>
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
+                            sed. Quos cupiditate id delectus est.</h2>
+                        <a href="#">Contact us</a>
+                    </div> -->
+                        <img src="./img/otra vez.jpg" alt="">
+
+                    </section>
+                    <section class="contenido-slider">
+                        <!-- <div>
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
+                            sed. Quos cupiditate id delectus est.</h2>
+                        <a href="#">Contact us</a>
+                    </div> -->
+                        <img src="./img/sara.jpg" alt="">
+
+                    </section>
+                    <section class="contenido-slider">
+                        <!-- <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
+                        sed. Quos cupiditate id delectus est.</h2>
+                    <a href="#">Contact us</a>
+                </div> -->
+                        <img src="./img/zai y vane.jpg" alt="">
+
+                    </section>
+                    <section class="contenido-slider">
+                        <!-- <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
+                        sed. Quos cupiditate id delectus est.</h2>
+                    <a href="#">Contact us</a>
+                </div> -->
+                        <img src="./img/zv, vg.jpg" alt="">
+
+                    </section>
+                    <section class="contenido-slider">
+                        <!-- <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
+                        sed. Quos cupiditate id delectus est.</h2>
+                    <a href="#">Contact us</a>
+                </div> -->
+                        <img src="./img/vg,ss.jpg" alt="">
+
+                    </section>
+                    <section class="contenido-slider">
+                        <!-- <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
+                        sed. Quos cupiditate id delectus est.</h2>
+                    <a href="#">Contact us</a>
+                </div> -->
+                        <img src="./img/londoño.jpg" alt="">
+
+                    </section>
+                </div>
+            </div>
+
+
         </section>
+
+
         <div class="imagen-light">
             <img src="img/close.svg" alt="" class="close">
             <img src="" alt="" class="agregar-imagen">
         </div>
         <section class="contenedor" id="expertos">
-            <h2 class="subtitulo">Expertos en:</h2>
+            <h2 class="subtitulo"><b>Ingredientes</h2></b>
             <section class="experts">
                 <div class="cont-expert">
-                    <img src="img/pie_chart.svg" alt="">
-                    <h3 class="n-expert">Analytics</h3>
+                    <a href="./tablas/sandia.html" target="_blank"><img src="img/hi-removebg-preview.png" alt=""></a>
+                    <h3 class="n-expert">Sandia</h3>
                 </div>
                 <div class="cont-expert">
-                    <img src="img/search_engine.svg" alt="">
-                    <h3 class="n-expert">SEO</h3>
+                    <a href="./tablas/limon.html" target="_blank"><img src="img/limon-removebg-preview.png" alt=""></a>
+                    <h3 class="n-expert">Limon</h3>
                 </div>
                 <div class="cont-expert">
-                    <img src="img/security.svg" alt="">
-                    <h3 class="n-expert">Security</h3>
+                    <a href="./tablas/azucar.html" target="_blank"><img src="img/azucar-removebg-preview (1).png"
+                            alt=""></a>
+                    <h3 class="n-expert">Azucar</h3>
                 </div>
             </section>
         </section>
@@ -84,25 +283,27 @@
 
     <footer id="footer">
         <div class="contenedor footer-content">
-                <div class="contact-us">
-                    <h2 class="brand">AlexCG Design</h2>
-                    <p>Somos expertos en la creación de tus sueños</p>
-                </div>
-                <div class="social-media">
-                    <a href="./" class="social-media-icon">
-                        <i class='bx bxl-facebook'></i>
-                    </a>
-                    <a href="./" class="social-media-icon">
-                        <i class='bx bxl-twitter' ></i>
-                    </a>
-                    <a href="./" class="social-media-icon">
-                        <i class='bx bxl-instagram' ></i>
-                    </a>
-                </div>
+            <div class="contact-us">
+                <h2 class="brand">Watermelon Freshnesst</h2>
+                <p>Sabor a sandía que te hará sonreír en cada desayuno</p>
+            </div>
+            <div class="social-media">
+
+                <a href="https://twitter.com/jam_fusion" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.instagram.com/watermelon.freshness/" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
         </div>
         <div class="line"></div>
     </footer>
+
+
+    <script src="main.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/lightbox.js"></script>
 </body>
+
 </html>
